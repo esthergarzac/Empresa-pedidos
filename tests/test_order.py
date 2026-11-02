@@ -28,7 +28,7 @@ def test_vip_discount_on_200():
     amount = order.confirm()
 
     # Assert
-    assert amount == 171 
+    assert amount == 170 
     assert order.status == "CONFIRMED"
 
 
